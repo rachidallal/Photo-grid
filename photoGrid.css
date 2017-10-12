@@ -1,0 +1,74 @@
+.thumbnail {
+height: 250px; 
+}
+
+body {
+background-color: #DFE2DB; 
+}
+
+img {
+border:10px white solid;
+padding-bottom: 15%; 
+
+}
+.jumbotron {
+	color: #004d99;
+	 font-size: 130%; 
+	background-image: url(https://scontent.fosl1-1.fna.fbcdn.net/v/t31.0-8/17505243_10155014255295928_2983865740708823331_o.jpg?oh=613e451c8f800c59474c94fb89cbda5d&oe=5A5DDEC6);
+background-position: 0% 25%;
+background-size: cover;
+background-repeat: no-repeat;
+color: black;
+font-family: 'Droid Sans', sans-serif;
+}
+
+.only {
+text-shadow: black 0.3em 0.3em 0.3em; 
+}
+
+}
+  .hvr-grow {
+    display: inline-block;
+    vertical-align: middle;
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    transition-duration: 0.3s;
+    transition-property: transform;
+}
+
+.hvr-grow:hover,
+.hvr-grow:focus,
+.hvr-grow:active {
+    transform: scale(1.1);
+}
+
+.hvr-float {
+  display: inline-block;
+  vertical-align: middle;
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  transition-duration: 0.3s;
+  transition-property: transform;
+  transition-timing-function: ease-out;
+
+}
+.hvr-float:hover,
+.hvr-float:focus,
+.hvr-float:active {
+  transform: translateY(-8px);
+}
+
+.center {
+	text-align: center;
+}
+
+.diff {
+	 opacity: 0.4;
+	font-family: 'Gochi Hand', cursive;
+font-family: 'Reenie Beanie', cursive;
+font-size: 100%;
+}
